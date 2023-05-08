@@ -17,27 +17,25 @@ import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 ```
 
+et je rajoute 
+
+```
+icons: {
+    iconfont: 'md' || 'fa' || 'mdi', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4' || 'faSvg'
+},
+```
+
 Au préalable je dois installer les fonts concernées en suivant le tuto sur [le site vuetify](https://v2.vuetifyjs.com/en/features/icon-fonts/#installing-icon-fonts) :
 - npm install @mdi/font -D
 - npm install @fortawesome/fontawesome-free -D
 - npm install material-design-icons-iconfont -D
 
-
-
-
-
-
-Je me suis inspiré de [ce tuto YouTube](https://www.youtube.com/watch?v=Tne-mbA1km4&t=200s) pour : 
-- ajout des icones dans vuetify 
-- création du template
-
-
-
-Dans App.vue j'enlève le composant HelloWorld
-
+Dans src/App.vue j'enlève le composant HelloWorld
 
 Avec Axios je récupère le JSON que je met dans this.products qui va être la variable qui stocke tous les produits
 J'initialise aussi un this.sortedProducts qui va être mes produits filtrés / triés
+
+Pour le design je me suis inspiré de [ce tuto YouTube](https://www.youtube.com/watch?v=Tne-mbA1km4&t=200s) pour : 
 
 J'ai commencé par récupérer mes produits et les afficher 
 Ensuite j'ai créé mon premier filtre (Prix), j'ai ajouté un watcher pour déclencher une fonction quand la valeur change
