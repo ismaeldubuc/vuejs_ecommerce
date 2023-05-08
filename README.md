@@ -21,7 +21,7 @@ et je rajoute
 
 ```
 icons: {
-    iconfont: 'md' || 'fa' || 'mdi', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4' || 'faSvg'
+    iconfont: 'md' || 'fa' || 'mdi',
 },
 ```
 

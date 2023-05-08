@@ -7,6 +7,6 @@ Vue.use(Vuetify);
 
 export default new Vuetify({
     icons: {
-        iconfont: 'md' || 'fa' || 'mdi', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4' || 'faSvg'
+        iconfont: 'md' || 'fa' || 'mdi', 
     },
 });
